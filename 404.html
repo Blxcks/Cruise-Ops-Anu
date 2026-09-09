@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>CruiseOps Antigua</title></head>
+<body>
+<script>
+(function(){
+  var path=location.pathname.replace(/\\/+$/, '');
+  var parts=path.split('/').filter(Boolean);
+  var route=parts.length ? parts[parts.length-1] : 'dashboard';
+  if(parts.length>1) route=parts.slice(1).join('/');
+  var base=parts.length ? '/' + parts[0] + '/' : '/';
+  location.replace(base + '#/' + route);
+})();
+</script>
+</body></html>
