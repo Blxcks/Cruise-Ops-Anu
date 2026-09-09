@@ -1,0 +1,10 @@
+{
+  "name": "CruiseOps Antigua",
+  "short_name": "CruiseOps",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0f172a",
+  "description": "Mobile-first cruise port agency operations workspace"
+}
