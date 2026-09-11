@@ -1,0 +1,9 @@
+{
+  "name": "CruiseOps Antigua",
+  "short_name": "CruiseOps",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "description": "Cruise port operations management for Antigua and Barbuda"
+}
